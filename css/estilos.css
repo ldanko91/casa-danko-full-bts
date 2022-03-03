@@ -1,6 +1,23 @@
+.portada{
+    background-image: url(/assets/portada4.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.bg-ideas{
+    background-color: rgb(224, 223, 223);
+}
+
+.carrusel-bg{
+    background-color: rgb(196, 196, 196);
+}
+
 .carrusel {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 50%;
+    justify-content: space-evenly;
+    width: 80%;
 }
+
+
+

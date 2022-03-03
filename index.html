@@ -22,6 +22,8 @@
                         <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">Home</a></li>
                         <li class="nav-item"><a class="nav-link" href="#header">Nosotros</a></li>
                         <li class="nav-item"><a class="nav-link" href="#features">Servicios</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#ideas">Ideas</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#partners">Partners</a></li>
                         <li class="nav-item"><a class="nav-link" href="#clientes">Clientes</a></li>
                         <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
                     </ul>
@@ -29,8 +31,8 @@
             </div>
         </nav>
         
-        <header class="bg-dark py-5" id="header">
-            <div class="container px-5 bg-danger">
+        <header class="bg-dark bg-opacity-25 py-5 portada" id="header">
+            <div class="container px-5 bg-danger bg-opacity-75">
                 <div class="row gx-5 justify-content-center">
                     <div class="col-lg-8">
                         <div class="text-center my-5">
@@ -75,28 +77,79 @@
             </div>
         </section>
 
-        <div id="carouselExampleControls" class="carousel slide container-fluid bg-dark carrusel" data-bs-ride="carousel">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="assets/productos2.jpg" class="d-block w-100" alt="productos2">
-              </div>
-              <div class="carousel-item">
-                <img src="assets/ideas2.jpg" class="d-block w-100" alt="ideas2">
-              </div>
-              <div class="carousel-item">
-                <img src="assets/productos1.jpg" class="d-block w-100" alt="productos1">
-              </div>
+    <section class="container-fluid col-md-12">
+        <div class="row">
+            <div class="col-sm-4 bg-ideas">
+                <h2 class="h1 pt-5 fw-bolder">Ideas para tus proyectos</h2>
+                <p class="h3 py-3">Contamos con una amplia variedad de amoblamientos para tus ambientes.</p>
+                <p class="h3 py-3">Encontrá todo lo que buscás para darle nueva vida a los espacios de tu casa.</p>
+                <p class="h3 py-3">Estamos enfocados en ofrecerte la mejor calidad al precio que buscás.</p>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div>
-        
+            <div class="col-sm-8 container carrusel-bg shadow p-3" id="ideas">
+                <div id="carouselExampleControls" class="container carousel slide carrusel" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="assets/productos2.jpg" class="d-block w-100" alt="productos2">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/ideas2.jpg" class="d-block w-100" alt="ideas2">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/portada2.jpg" class="d-block w-100" alt="productos1">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/portada3.jpg" class="d-block w-100" alt="productos1">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                    </button>
+                </div> 
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="conainer-fluid">
+            <div id="partners">
+                <h2 class="h1 pt-5 fw-bolder text-center">Nuestros partners</h2>
+                <p class="h3 py-3 text-center">Estas marcas líderes nos acompañan.</p>
+            </div>
+            <div class="container">
+                <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                        <img src="/assets/marcas1.jpg" class="d-block w-100" alt="marcas1">
+                        </div>
+                        <div class="carousel-item">
+                        <img src="/assets/marcas2.jpg" class="d-block w-100" alt="marcas2">
+                        </div>
+                        <div class="carousel-item">
+                        <img src="/assets/marca4.png" class="d-block w-100" alt="marca4">
+                        </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                    <div>
+                    <p class="h5 py-3 text-center">Ponemos a tu disposición productos de primera línea, para que tu proyecto <span class="fw-bolder">¡sea un éxito!</span></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    </section>
         <section class="py-5 border-bottom" id="clientes">
             <div class="container px-5 my-5 px-5">
                 <div class="text-center mb-5">
@@ -188,7 +241,7 @@
         </section>
 
         <footer class="py-5 bg-dark">
-            <div class="container px-5"><p class="m-0 text-center text-white">Copyright &copy; DLDevs MMXXII</p></div>
+            <div class="container px-5"><p class="m-0 text-center text-white">Copyright &copy; DLDevs MMXXII - Reducí, reciclá, reutilizá.</p></div>
         </footer>
         
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
